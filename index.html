@@ -4,106 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
-            color: #333;
-            text-align: center;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: flex-start;
-            height: 100vh;
-            padding-top: 20px;
-        }
-        header {
-            font-size: 28px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        nav {
-            width: 100%;
-            background-color: #333;
-            padding: 10px 0;
-        }
-        nav a {
-            color: white;
-            text-decoration: none;
-            padding: 10px 20px;
-            margin: 0 10px;
-            font-size: 16px;
-        }
-        nav a:hover {
-            background-color: #444;
-            border-radius: 4px;
-        }
-        .container {
-            max-width: 600px;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            margin: 20px 0;
-        }
-        h2 {
-            margin-bottom: 10px;
-            font-size: 22px;
-        }
-        p {
-            font-size: 16px;
-            line-height: 1.6;
-        }
-        #about img {
-            width: 150px;
-            height: 150px;
-            border-radius: 0;
-            margin-bottom: 20px;
-        }
-        .social-links a {
-            color: #333;
-            margin: 0 10px;
-            font-size: 20px;
-            text-decoration: none;
-        }
-        .social-links a:hover {
-            color: #007BFF;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>My Portfolio</header>
 
     <nav>
-        <a href="#about">About Me</a>
-        <a href="#family">My Family</a>
-        <a href="#hobbies">My Hobbies</a>
+        <a href="about.html">About Me</a>
+        <a href="family.html">My Family</a>
+        <a href="hobbies.html">My Hobbies</a>
     </nav>
 
-    <section id="about" class="container">
-        <h2>About Me</h2>
-        <img src="me.jpg" alt="lol">
-        <p>Hello! My name is Eitan Preciado. Welcome to my personal portfolio.</p>
-        <div class="social-links">
-            <a href="https://www.tiktok.com/@eitanpreciado?_t=ZT-8tpjdVS8WNy&_r=1" target="_blank">TikTok</a>
-            <a href="https://www.instagram.com/eitanpreciado?igsh=MXQ4ZnA5eHN3YnZ2Mg%3D%3D&utm_source=qr" target="_blank">Instagram</a>
-            <a href="https://youtube.com/@eitanpreciado9184?si=X8hoEs4k2qbu7hWG" target="_blank">YouTube</a>
-        </div>
+    <section class="intro">
+        <h2>Welcome to My Portfolio</h2>
+        <p>Explore the different sections to learn more about me.</p>
     </section>
 
-    <section id="family" class="container">
-        <h2>My Family</h2>
-        <p>A little bit about my family. We are of Syrian descent, and we probably would still be in Syria hadn't it been for the fact that we were expelled. I dream of going back to where my family came from, but I don't see it happening anytime soon.</p>
-    </section>
-
-    <section id="hobbies" class="container">
-        <h2>My Hobbies</h2>
-        <p>Here are some of my favorite hobbies: planes, weather, and most importantly, soccer. I only started playing soccer about three years ago, but it changed my life. I watch soccer every week. I live and breathe soccer.</p>
-    </section>
+    <footer>
+        <p>&copy; 2025 Eitan Preciado. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
